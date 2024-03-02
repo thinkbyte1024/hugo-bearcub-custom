@@ -1,0 +1,23 @@
+[filtering-for]
+  other = "saringan untuk"
+
+[no-posts]
+  other = "tidak ada postingan saat ini"
+
+[email-subject]
+  other = "balas ke "
+
+[email-reply]
+  other = "balas postingan ini melalui surel"
+
+[skip-link]
+  other = "lewati ke konten utama"
+
+[acknowledgements]
+  other = "pengakuan"
+
+[rss-feed]
+  other = "umpan"
+
+[not-found]
+  other = "halaman tidak ditemukan"

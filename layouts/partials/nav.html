@@ -1,7 +1,7 @@
 {{ range .Site.Menus.main.ByWeight }}
-  <a href="{{ .URL }}">{{ .Name }}</a>
+  <a href="{{ .URL }}">./{{ .Name }}</a>
 {{ end }}
-<a href='{{ absURL "index.xml" }}'>RSS</a>
+<a href='{{ absURL "index.xml" }}'>./{{ i18n "rss-feed" }}</a>
 
 <!-- Convert this page's translations into a dict -->
 {{ $translations := dict }}
@@ -12,11 +12,11 @@
 <!-- Create a link to every translation -->
 {{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
   {{ with (index $translations .Lang) }}
-    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    <a href="{{ .Permalink }}">./{{ .Language.LanguageName }}</a>
   {{ else }}
     <!-- The complicated setup was necessary to make a grayed out link -->
     {{ if not .Params.hideUntranslated }}
-      <a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
+      <a class="disabled" role="link" aria-disabled="true">./{{ .LanguageName }}</a>
     {{ end }}
   {{ end }}
 {{ end }}

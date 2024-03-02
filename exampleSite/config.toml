@@ -24,18 +24,18 @@ enableRobotsTXT = true
 [languages]
   [languages.en]
     title = "Bear Cub"
-    languageName = "en-US 🇺🇸"
+    languageName = "english"
     LanguageCode = "en-US"
-    contentDir = "content"
+    contentDir = "content.en"
     [languages.en.params]
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
-  [languages.pt]
+  [languages.id]
     title = "Bear Cub"
-    languageName = "pt-BR 🇧🇷"
-    LanguageCode = "pt-BR"
-    contentDir = "content.pt"
-    [languages.pt.params]
-      madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub)"
+    languageName = "indonesian"
+    LanguageCode = "id-ID"
+    contentDir = "content.id"
+    [languages.id.params]
+      madeWith = "Dibuat menggunakan [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # The description of your website

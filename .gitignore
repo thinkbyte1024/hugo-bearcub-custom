@@ -1,4 +1,10 @@
 .hugo_build.lock
+
+# ignore OSX specific file
 .DS_Store
+
+# ignore hugo compiled pages
 resources/
+public/
+
 todo.md

@@ -1,14 +1,23 @@
 [filtering-for]
-  other = "Filtering for"
+  other = "filtering for"
 
 [no-posts]
-  other = "No posts yet"
+  other = "no posts yet"
 
 [email-subject]
-  other = "Reply to "
+  other = "reply to "
 
 [email-reply]
-  other = "Reply to this post by email"
+  other = "reply to this post by email"
 
 [skip-link]
-  other = "Skip to main content"
+  other = "skip to main content"
+
+[acknowledgements]
+  other = "acknowledgements"
+
+[rss-feed]
+  other = "feed"
+
+[not-found]
+  other = "page not found"
